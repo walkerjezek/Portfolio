@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+}
+
+
+header {
+    display: flex;
+    background: rgb(70, 70, 70);
+    color: white;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 75px;
+}
+
+header h1 {
+    display: flex;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    background-color: turquoise;
+    color: rgb(70, 70, 70);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: end;
+    align-items: flex-end;
+    color: white;
+    margin: 5px;
+}
+
+a {
+    color: white;
+    justify-content: space-between;
+}
+
+
+.image {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    background: url("Mountain-Image.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+}
+
+/* .image img {
+    display: flex;
+    max-width: 100%;
+    background-size: cover;
+} */
+
+.imageText {
+    background-color: turquoise;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    font-size: 20px;
+    color: rgb(70, 70, 70);
+}
+
+.mainSection {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutMe {
+    flex: 1;
+}
+
+.work {
+    flex: 1;
+}
+
+.contactMe {
+    flex: 1;
+}
+
+
+/* main {
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 500px;
+} */
+
+
+/* section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+} */
+
+/* section ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: end;
+    align-items: flex-end;
+} */
+
+/* @media screen and (max-width: 768px) {
+    .p {
+      flex-direction: column;
+    }
+  } */
