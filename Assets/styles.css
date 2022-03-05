@@ -6,7 +6,6 @@
 header {
     display: flex;
     background: rgb(70, 70, 70);
-    color: white;
     justify-content: space-between;
     align-items: flex-end;
     height: 75px;
@@ -28,14 +27,13 @@ nav {
     justify-content: end;
     align-items: flex-end;
     color: white;
-    margin: 5px;
+    margin: 10px;
 }
 
 a {
     color: white;
     justify-content: space-between;
 }
-
 
 .image {
     display: flex;
@@ -47,12 +45,6 @@ a {
     height: 25vh;
 }
 
-/* .image img {
-    display: flex;
-    max-width: 100%;
-    background-size: cover;
-} */
-
 .imageText {
     background-color: turquoise;
     padding: 10px;
@@ -62,35 +54,45 @@ a {
     color: rgb(70, 70, 70);
 }
 
+
+/* Using instructor example */
 .mainSection {
     display: flex;
     flex-direction: row;
-}
-
-.aboutMe {
-    flex: 1;
-}
-
-.work {
-    flex: 1;
-}
-
-.contactMe {
-    flex: 1;
-}
-
-
-/* main {
     flex-wrap: wrap;
-    display: grid;
-    grid-template-columns: 1fr 500px;
-} */
+    align-items: stretch;
+    justify-content: space-between;
+    min-height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* These settings are for the left column of the main section */
+.leftColumn {
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    flex: .5;
+    border-right: 3px solid turquoise;
+    padding-right: 10px;
+}
 
+/* Setting how the right column in the main seciton should be set up */
+.rightColumn {
+    display: flex;
+    flex: 0 0 75%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 
-/* section {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-} */
+/* Settings specific for the contact list */
+.contactList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style-type: none;
+}
+
 
 /* section ul {
     display: flex;
