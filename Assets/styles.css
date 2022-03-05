@@ -1,8 +1,9 @@
+/* removing the margin for the entire page unless otherwise set */
 * {
     margin: 0px;
 }
 
-
+/* header settings */
 header {
     display: flex;
     background: rgb(70, 70, 70);
@@ -11,6 +12,7 @@ header {
     height: 75px;
 }
 
+/* title settings */
 header h1 {
     display: flex;
     padding-left: 30px;
@@ -20,6 +22,7 @@ header h1 {
     color: rgb(70, 70, 70);
 }
 
+/* overall settings for the nav bar */
 nav {
     display: flex;
     flex-direction: row;
@@ -30,11 +33,13 @@ nav {
     margin: 10px;
 }
 
+/* links for the nav bar */
 a {
     color: white;
     justify-content: space-between;
 }
 
+/* settings for the hero image */
 .image {
     display: flex;
     justify-content: end;
@@ -45,6 +50,7 @@ a {
     height: 25vh;
 }
 
+/* Getting the text to overlay the hero image */
 .imageText {
     background-color: turquoise;
     padding: 10px;
@@ -85,13 +91,14 @@ a {
     align-items: flex-start;
 }
 
+/* column settings */
 .rightColumnTiles {
     display: flex;
     flex-wrap: wrap;
     flex: 0 0 75%;
 }
 
-/* Tiles to link to my work. make opacity 50% to start.
+/* Tiles to link to my work. make opacity 75% to start.
 On hover make clear */
 .workTiles {
     display: flex;
@@ -108,6 +115,7 @@ On hover make clear */
     opacity: 75%;
 }
 
+/* Specific to the large tile image */
 .workTilesLarge {
     display: flex;
     flex-wrap: wrap;
@@ -123,6 +131,7 @@ On hover make clear */
     font-size: 30px;
 }
 
+/* Adding a hover feature that changes the opacity */
 .workTiles:hover {
     opacity: 100%;
 }
@@ -143,15 +152,11 @@ On hover make clear */
     margin-right: 10px;
 }
 
+/* Settings for the contact list elements in order to space them out evenly */
 .contactList a {
     display: block;
     color: black;
 }
-
-/* #about-me {};
-#work {};
-#contact-me {}; */
-
 
 @media screen and (max-width: 768px) {
     .workTilesLarge {
