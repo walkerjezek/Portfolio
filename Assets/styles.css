@@ -148,13 +148,17 @@ On hover make clear */
     color: black;
 }
 
-#about-me {};
+/* #about-me {};
 #work {};
-#contact-me {};
+#contact-me {}; */
 
 
-/* @media screen and (max-width: 768px) {
-    .p {
-      flex-direction: column;
+@media screen and (max-width: 768px) {
+    .workTilesLarge {
+        display: flex;
+        flex-wrap: wrap;
+        height: 200px;
+        width: 100%;
+        font-size: 15px;
     }
-  } */
+  }
