@@ -85,22 +85,73 @@ a {
     align-items: flex-start;
 }
 
+.rightColumnTiles {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 75%;
+}
+
+/* Tiles to link to my work. make opacity 50% to start.
+On hover make clear */
+.workTiles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url("https://cms-assets.themuse.com/media/lead/01212022-1047259374-coding-classes_scanrail.jpg");
+    background-size: contain;
+    height: 150px;
+    width: 225px;
+    border: 2px solid turquoise;
+    margin: 10px;
+    opacity: 75%;
+}
+
+.workTilesLarge {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    background-image: url("https://cms-assets.themuse.com/media/lead/01212022-1047259374-coding-classes_scanrail.jpg");
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+    border: 2px solid turquoise;
+    margin: 10px;
+    opacity: 90%;
+    font-size: 30px;
+}
+
+.workTiles:hover {
+    opacity: 100%;
+}
+
+.workTilesLarge:hover {
+    opacity: 100%;
+}
+
+
 /* Settings specific for the contact list */
 .contactList {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    list-style-type: none;
+    width: 100%;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-right: 10px;
 }
 
+.contactList a {
+    display: block;
+    color: black;
+}
 
-/* section ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: end;
-    align-items: flex-end;
-} */
+#about-me {};
+#work {};
+#contact-me {};
+
 
 /* @media screen and (max-width: 768px) {
     .p {
