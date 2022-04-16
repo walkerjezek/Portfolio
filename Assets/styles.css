@@ -156,6 +156,7 @@ On hover make clear */
     background-repeat: no-repeat;
     height: 400px;
     width: 100%;
+    max-width: 725px;
     border: 2px solid turquoise;
     margin: 10px;
     /* opacity: 90%; */
@@ -166,7 +167,16 @@ On hover make clear */
     color: black;
     background-color: turquoise;
     border-radius: 3px;
-    padding: 2px
+    padding: 2px;
+    margin: 2px;
+}
+
+.tileText {
+    color: black;
+    background-color: turquoise;
+    border-radius: 3px;
+    padding: 2px;
+    font-size: 16px;
 }
 
 /* Adding a hover feature that changes the opacity */
