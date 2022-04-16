@@ -8,4 +8,5 @@ Currently, you will find a section telling you a little bit about me, some links
 and ways to contact me.
 
 
-![Screen Shot 2022-03-05 at 3 22 47 PM](https://user-images.githubusercontent.com/98861520/156903362-9f69defc-0327-4e89-9ce4-f40af80a1c0a.png)
+
+![Screen Shot 2022-04-16 at 9 55 36 AM](https://user-images.githubusercontent.com/98861520/163682010-a8659606-7414-4e21-985d-695cbcc8361b.png)
