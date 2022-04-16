@@ -100,19 +100,49 @@ a {
 
 /* Tiles to link to my work. make opacity 75% to start.
 On hover make clear */
-.workTiles {
+.workTiles1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-    background-image: url("https://cms-assets.themuse.com/media/lead/01212022-1047259374-coding-classes_scanrail.jpg");
+    background-image: url("MyMDb.png");
     background-size: contain;
     height: 150px;
     width: 225px;
     border: 2px solid turquoise;
     margin: 10px;
-    opacity: 75%;
+    /* opacity: 75%; */
+}
+
+.workTiles2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url("Planner.png");
+    background-size: contain;
+    height: 150px;
+    width: 225px;
+    border: 2px solid turquoise;
+    margin: 10px;
+    /* opacity: 75%; */
+}
+
+.workTiles3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url("Quiz.png");
+    background-size: contain;
+    height: 150px;
+    width: 225px;
+    border: 2px solid turquoise;
+    margin: 10px;
+    /* opacity: 75%; */
 }
 
 /* Specific to the large tile image */
@@ -121,18 +151,26 @@ On hover make clear */
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-end;
-    background-image: url("https://cms-assets.themuse.com/media/lead/01212022-1047259374-coding-classes_scanrail.jpg");
+    background-image: url("Screen\ Shot\ 2022-04-16\ at\ 9.37.08\ AM.png");
     background-size: contain;
+    background-repeat: no-repeat;
     height: 400px;
     width: 100%;
     border: 2px solid turquoise;
     margin: 10px;
-    opacity: 90%;
+    /* opacity: 90%; */
     font-size: 30px;
 }
 
+.tileText {
+    color: black;
+    background-color: turquoise;
+    border-radius: 3px;
+    padding: 2px
+}
+
 /* Adding a hover feature that changes the opacity */
-.workTiles:hover {
+.workTiles1:hover {
     opacity: 100%;
 }
 
